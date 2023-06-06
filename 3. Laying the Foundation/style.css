@@ -1,0 +1,15 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: rgb(red, green, blue);
+    background-color: aquamarine;
+    border: 5px solid blue;
+}
+
+h2{
+    color: rgb(red, green, blue);
+    background-color: aqua;
+    border: 5px solid peru;
+}
