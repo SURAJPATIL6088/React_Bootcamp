@@ -1,0 +1,20 @@
+{
+  "name": "4.-talk-is-cheap-show-me-the-code",
+  "version": "1.0.0",
+  "description": "this is the 4th chapter of the namaste react series in this we are building the Food Ordering App ",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "Suraj Patil",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
