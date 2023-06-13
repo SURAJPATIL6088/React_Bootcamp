@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    border: 1px solid black;
+}
+
+.nav-items > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.card {
+    width: 200px;
+    margin: 12px;
+    padding: 10px;
+    border: 1px solid black;   
+}
+.card >img{
+    width: 100%; 
+}
+
+.RestrauntCard-list
+{
+    margin: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
