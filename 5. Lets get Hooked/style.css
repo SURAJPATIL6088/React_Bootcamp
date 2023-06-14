@@ -5,18 +5,19 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 12px;
+    align-items: center;
+    margin: 16px;
     border: 1px solid black;
 }
 
 .nav-items > ul{
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+    list-style-type:none;
 }
 
 .nav-items > ul > li{
-    padding: 10px;
+    padding: 18px;
 }
 
 .logo{
@@ -36,9 +37,23 @@
 
 .RestrauntCard-list
 {
-    margin: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.search-container
+{    
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    padding: 10px;
+}
+
+.search-btn, 
+.search-input {
+    padding: 10px;
+    border: 1px solid red;
+}
