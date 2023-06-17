@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    border: 1px solid black;
+}
+
+.nav-items > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+}
+
+.nav-items > ul > li{
+    padding: 18px;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.card {
+    width: 200px;
+    margin: 12px;
+    padding: 10px;
+    border: 1px solid black;   
+}
+.card >img{
+    width: 100%; 
+}
+
+.RestrauntCard-list
+{
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search-container
+{    
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    padding: 10px;
+}
+
+.search-btn, 
+.search-input {
+    padding: 10px;
+    border: 1px solid red;
+}
