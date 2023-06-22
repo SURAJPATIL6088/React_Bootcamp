@@ -1,0 +1,19 @@
+{
+  "name": "1.-tic-tac-toe-game",
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe Game Using React",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "author": "Suraj Patil",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
