@@ -6,4 +6,5 @@
 5. Let's get Hooked ✨✨🎣🎣
 6. Exploring the world 🌏🌏
 7. Finding the Paths 🏁🚩
-8. Let's get classy
+8. Let's get classy 🔴😎
+9. Optimizing Our App 📈📈
