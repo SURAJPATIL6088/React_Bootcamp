@@ -29,6 +29,7 @@ import RestaurantMenu from "./src/components/RestaurantMenu.js";
 import Profile from "./src/components/Profile.js";
 //import Instamart from "./src/components/Instamart.js";
 import Registration from "./src/Authentication/Registration.js";
+import SignIn from "./src/Authentication/SignIn.js";
 
 // Chunking
 // code spliting
@@ -57,7 +58,14 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Body />,
+        element: (
+          <Body
+            user={{
+              name: "Suraj Patil",
+              email: "surajpatil3941@gmail.com",
+            }}
+          />
+        ),
       },
       {
         path: "/about",
@@ -88,6 +96,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/registration",
         element: <Registration />,
+      },
+      {
+        path: "/signin",
+        element: <SignIn />,
       },
     ],
   },
